@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>collaps</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col text-center">
+          <h1>We larn Bootstrap Collapse</h1>
+          <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#content">Show</button>
+        
+          <div id="content" class="collapse " >
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui et quam, fuga error iste accusantium aut quisquam dolores non, possimus fugit velit ipsam, cupiditate aperiam deleniti tenetur reprehenderit corporis.</p>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+      <hr>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col text-center">
+          <h1>We Laren Accordion</h1>
+          <div id="Accordion">
+            <div class="card">
+              <a href="#one" data-bs-toggle="collapse" >item1</a>
+              <div id="one" class="collapse" data-bs-parent="#accrdion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, possimus?</p>
+              </div>
+            </div>
+          </div>
+          <div id="Accordion">
+            <div class="card">
+              <a href="#one" data-bs-toggle="collapse" >item1</a>
+              <div id="one" class="collapse" data-bs-parent="#content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, possimus?</p>
+              </div>
+            </div>
+          </div>
+          <div id="Accordion">
+            <div class="card">
+              
+              <div id="one" class="collapse show" data-bs-parent="#accrdion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, possimus?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    
+       
+
+
+
+      <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
